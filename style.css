@@ -1,0 +1,194 @@
+/* css global du projet */
+*{
+    transition: all 0.8s ease;
+}
+
+/* css pour toutes les pages */
+#formClient{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    background: lightgray;
+    padding: 0px 14px 10px 14px;
+}
+
+.default_select{
+    color: lightgrey;
+}
+
+#formClient> input{
+    padding: 8px 0px;
+    margin-bottom: 5px;
+}
+
+#formClient label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#formClient select{
+    padding: 8px 0px;
+}
+
+.title_h1{
+    text-align: center;
+}
+
+/* css page client*/
+
+.inputError{
+    outline-color: red;
+    border: 3px solid red !important;
+}
+.messageError{
+    color: red;
+    margin-bottom: 10px;
+}
+
+.inputSucces{
+    border: 3px solid green;
+}
+
+
+/* css page activité */
+form #saison{
+    padding: 15px 0;
+}
+
+/* css page  accueil */
+.home_content{
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.home_content h1{
+    text-align: center;
+}
+
+.home_content ul{
+    list-style: none;
+    padding: 0;
+}
+
+.home_content ul li{
+    margin: 15px 0;
+}
+
+.home_content ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 4px;
+    border: 2px solid lightblue;
+    margin: 15px 0;
+    font-size: 22px;
+    background: lightblue;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.home_content ul li a:hover{
+    background: rgb(173, 230, 223);
+    border-color: rgb(173, 230, 223);
+    color: rgb(232, 226, 200);
+    margin-left: 10px;
+}
+
+/* css page liste client */
+
+#block_client, #block_activity{
+    margin-top: 50px;
+}
+
+#block_client h1, #block_activity h1{
+    text-align: center;
+}
+
+#list_client, #list_activity{
+    width: 90%;
+    margin: auto;
+}
+
+#list_client li,#list_activity li{
+    list-style: none;
+    position: relative;
+}
+
+#list_client .voir_activite, #list_activity .voir_activite{
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    top: 31%;
+    cursor: pointer;
+    color: white;
+    text-underline-offset: 2px;
+}
+
+#list_client .voir_activite a, #list_activity .voir_activite a{
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+#list_client .voir_activite a:hover, #list_activity .voir_activite a:hover{
+    background:transparent;
+    border-color: transparent;
+    margin-left: 0;
+}
+
+#list_client .voir_activite:hover, #list_activity .voir_activite:hover {
+    color: rgb(232, 226, 200);
+}
+
+#list_client li, #list_activity li{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 4px;
+    border: 2px solid lightblue;
+    margin: 15px 0;
+    font-size: 18px;
+    background: lightblue;
+    color: white;
+    font-weight: bolder;
+}
+
+#list_client li:hover, #list_activity li:hover{
+    background: rgb(173, 230, 223);
+    border-color: rgb(173, 230, 223);
+    color: rgb(232, 226, 200);
+    margin-left: 10px;
+}
+
+.aucun_client, .aucun_activity{
+    list-style: none;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+.page_accueil{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color:cornflowerblue;
+}
+
+/* css formulaire client */
+#loader{
+    display: inline-block;
+    width: 32px;
+    margin: auto;
+}
+
+.linkAjoutActivity{
+    float: right;
+    cursor: pointer;
+    color: blue;
+}
