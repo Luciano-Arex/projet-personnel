@@ -15,3 +15,4 @@ Ce projet personnel est une application web de gestion de clients et d'activité
 - **Base de données:** SQL (fichier bd_tp2.sql)
 - **Markup:** Hack (19.8%) - fichiers PHP avec templating
 
+NB: il existe le projet complet sous format zip dans ce depot
